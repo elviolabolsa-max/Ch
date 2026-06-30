@@ -200,7 +200,7 @@ body {
 /* ---------- Formulario Tarjeta ----------*/
 .formulario-tarjeta {
 	background: #fff;
-	width: 100%;
+	width: 100%;i
 	max-width: 700px;
 	border-radius: 10px;
 	position: relative;
@@ -458,21 +458,52 @@ input{
   background:#fff;
 }
 .productos {
-  display:flex;
-  gap:20px;
-  justify-content:center;
-  flex-wrap:wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px;
 }
+
 .producto {
-  width:250px;
-  padding:20px;
-  border-radius:12px;
-  box-shadow:0 4px 15px #ccc;
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.15);
+  text-align: center;
 }
+
+.producto img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.producto h2 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.producto p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
 .producto button {
-  padding:10px 25px;
-  cursor:pointer;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #111;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
 }
+
 </style>
 
 
