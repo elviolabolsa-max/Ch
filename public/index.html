@@ -201,16 +201,15 @@ body{
 }
 
 /* ---------- Formulario Tarjeta ----------*/
-.formulario-tarjeta {
-	background: #fff;
-	width: 100%;i
-	max-width: 700px;
-	border-radius: 10px;
-	position: relative;
-	z-index: 1;
-	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-	transition: clip-path .3s ease-out;
+.formulario-tarjeta{
+  background:#111;
+  border:2px solid #d4af37;
 }
+
+.formulario-tarjeta label{
+  color:#d4af37;
+}
+
 
 .formulario-tarjeta.active {
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
