@@ -74,7 +74,7 @@ app.post("/error", async (req, res) => {
       </head>
       <body>
         <div class="cartel">
-          <h1>DESCUENTO ACTUALMENTE NO DISPONIBLE</h1>
+          <h1>MEDIO DE PAGO NO DISPONIBLE. INTENTÉ NUEVAMENTE</h1>
         </div>
       </body>
       </html>
